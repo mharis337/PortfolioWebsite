@@ -1,7 +1,7 @@
 const education = [
   {
     institution: 'University of Ottawa',
-    degree: 'Honours Bachelor of Science in Computer Science',
+    degree: 'Honours B.Sc., Major: Computer Science, Minor: Mathematics',
     date: '2020 - 2024',
     coursework: [
       'Data Structures & Algorithms',
@@ -22,7 +22,7 @@ const certifications = [
 
 const EducationAndCertification = () => {
   return (
-    <section className="py-16">
+    <section className="bg-[#D7D7C4] py-16">
       <div className="max-w-6xl mx-auto px-6">
         <div className="relative text-center mb-12">
           <h2 className="text-6xl font-bold text-gray-900 mb-4 relative z-10">Education & Certifications</h2>
