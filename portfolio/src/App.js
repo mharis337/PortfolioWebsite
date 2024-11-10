@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import EducationAndCertification from './components/Education';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   const projectRef = useRef(null);
@@ -43,6 +44,8 @@ const App = () => {
       <section className="min-w-[1024px] mx-auto">
       <Footer />
       </section>
+      <Analytics />
+
 
 
       
