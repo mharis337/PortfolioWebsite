@@ -8,7 +8,6 @@ const projects = [
     title: 'ClimateLens',
     technologies: ['JavaScript', 'Bootstrap', 'React', 'HTML', 'CSS'],
     description: 'Designed an engaging and responsive user interface for a climate change awareness website, ensuring accessibility and visual appeal across various devices. Implemented dynamic content rendering using React and Bootstrap, providing a seamless and interactive user experience with modern styling and optimized performance.',
-    liveLink: 'https://github.com/mharis337/ClimateLens',
     githubLink: 'https://github.com/mharis337/ClimateLens',
     image: placeHolder,
   },
@@ -16,18 +15,39 @@ const projects = [
     title: 'Gesture-Controlled Drone',
     technologies: ['Python', 'C++', 'ESP32'],
     description: 'Designed and developed a gesture-controlled drone using an ESP32 WROOM microcontroller and a CNN, enabling real-time hand gesture recognition for precise drone maneuvering. Implemented a wireless system to send gesture commands from a computer to the drone, ensuring accurate control using OpenCV, MediaPipe, and C++.',
-    liveLink: 'https://github.com/mharis337/Gesture-Controlled-Drone',
     githubLink: 'https://github.com/mharis337/Gesture-Controlled-Drone',
+    image: placeHolder,
+  },
+  {
+    title: 'Fitness App Manager',
+    technologies: ['Java'],
+    description: 'Developed a Java-based fitness management application that allows users to log, track, and analyze their fitness routines and goals. Implemented user-friendly features for data input and visualization, improving user engagement and usability. Integrated core Java principles, including object-oriented programming (OOP) and data handling, to create a modular and efficient codebase.',
+    githubLink: 'https://github.com/mharis337/Fitness-App-Manager',
     image: placeHolder,
   },
   {
     title: 'Chess Game',
     technologies: ['C++', 'SFML'],
     description: 'Developed a Chess game using C++, leveraging the SFML library for rich graphical representation and interactive gameplay, demonstrating advanced Object-Oriented Programming skills.',
-    liveLink: 'https://github.com/mharis337/Chess',
     githubLink: 'https://github.com/mharis337/Chess',
     image: placeHolder,
   },
+  {
+    title: 'PDF Audio Summarizer',
+    technologies: ['Python'],
+    description: 'Developed a tool that summarizes PDF content and converts the text summary to audio, making information accessible and easier to consume. The application leverages text summarization techniques and text-to-speech synthesis for improved usability.',
+    githubLink: 'https://github.com/mharis337/Name_Generation_WebApp',
+    image: placeHolder,
+},
+{
+  title: 'Name Generation WebApp',
+  technologies: ['Python', 'JavaScript', 'HTML', 'CSS', 'Django', 'SQLite'],
+  description: 'Built a full-stack web application for generating names based on user-defined parameters, using Django as the backend framework and SQLite for database management. The frontend utilizes HTML templates, CSS for styling, and JavaScript for client-side interactivity. Additional data is stored in CSV format to support name generation functionalities, with a Python script to populate the database as needed.',
+  githubLink: 'https://github.com/mharis337/PDF_Audio_Summarizer',
+  image: placeHolder,
+},
+
+
 ];
 
 
@@ -97,16 +117,6 @@ const Project = () => {
                 </div>
 
                 <div className="flex space-x-6">
-                  {project.liveLink && (
-                    <a
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-[#B39774] font-semibold hover:text-[#A67E5B] underline"
-                    >
-                      Live Site
-                    </a>
-                  )}
                   {project.githubLink && (
                     <a
                       href={project.githubLink}
