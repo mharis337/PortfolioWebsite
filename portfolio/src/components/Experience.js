@@ -1,27 +1,28 @@
 const experiences = [
     {
-        title: 'Software Developer Intern',
-        company: 'Financial Transactions and Reports Analysis Centre of Canada (FINTRAC)',
-        date: 'Jan 2023 - Dec 2023',
-        description: [
-            'Developed an entity resolution package using machine learning, achieving 92% accuracy and enabling optimization of existing projects, boosting processing speed by 80%.',
-            'Streamlined the analysis of high-volume data, narrowing search results from over 100,000 records to a few hundred actionable cases through optimized SQL queries and automation scripts.',
-            'Expanded search parameters for transaction data analysis, increasing detection of previously untracked entities by 50%, delivering comprehensive, automated client reports.',
-            'Utilized Python and SQL to analyze extensive datasets, identifying and rectifying over 10,000 misfiled reports in a relational database.',
-        ],
+      title: 'Software Developer Intern',
+      company: 'Financial Transactions and Reports Analysis Centre of Canada (FINTRAC)',
+      date: 'Jan 2023 - Dec 2023',
+      description: [
+        'Created an entity resolution package in Python using machine learning, achieving a 30% increase in accuracy for identifying individuals and an 80% increase in processing speed.',
+        'Reduced over 100,000 data records to a few hundred actionable cases by optimizing SQL queries and automating workflows, enabling targeted fraud analysis.',
+        'Improved detection of untracked entities by 50% and enhanced client reporting accuracy by automating transaction analysis and report generation, resulting in better fraud prevention.',
+        'Identified and rectified over 10,000 misfiled reports in a relational database using Python and SQL, improving compliance and uncovering banks with reporting issues.'
+      ]
     },
     {
-        title: 'DevOps Engineer Intern',
-        company: 'Public Services and Procurement Canada (PSPC)',
-        date: 'May 2022 - Dec 2022',
-        description: [
-            'Contributed to the development and optimization of Terraform scripts under the guidance of a mentor, enhancing infrastructure provisioning efficiency and reducing setup time for cloud resources across multiple environments.',
-            'Configured and monitored over 15 security alerts using Azure Active Directory, enhancing the overall security posture of the system and ensuring proactive threat detection.',
-            'Led a project to validate and present cost-free integration options for Azure DevOps and Microsoft Teams, gaining stakeholder approval and saving the department an estimated $5,000 in potential integration costs.',
-            'Developed a web application to automate Azure resource naming, improving consistency and reducing human error across dozens of resources weekly.',
-        ],
-    },
-];
+      title: 'DevOps Engineer Intern',
+      company: 'Public Services and Procurement Canada (PSPC)',
+      date: 'May 2022 - Dec 2022',
+      description: [
+        'Configured and monitored 15+ security alerts in Azure Active Directory, reducing response times to security incidents.',
+        'Streamlined infrastructure delivery processes by contributing to CI/CD pipelines, automating Terraform deployments, and reducing deployment time.',
+        'Implemented and managed Azure DevOps to Microsoft Teams integration, improving team collaboration efficiency by streamlining project assignments.',
+        'Automated resource type updates for a naming convention web app by creating a Python-based web scraper, enhancing data consistency and saving hours of manual updates monthly.',
+        'Developed detailed documentation and guidelines for Azure DevOps integrations, enabling quicker onboarding and reducing setup errors.'
+      ]
+    }
+  ];
 
 const Experience = () => {
     return (
